@@ -1,16 +1,16 @@
 # Codeigniter HMVC Set `Frontend` , `Backend` , `Api`
-> [CodeIgniter-HMVC](https://github.com/Pholenk/CodeIgniter-HMVC)
+> ดาวโหลดไฟล์ต้นฉบับได้ที่ [CodeIgniter-HMVC](https://github.com/Pholenk/CodeIgniter-HMVC)
 
 ## แก้ไขไฟล์ .htaccess
 ```sh
-	RewriteEngine On
-	RewriteBase /`{projectname}`
+RewriteEngine On
+RewriteBase /`{ชื่อโปรเจค}`
 
-	RewriteCond %{REQUEST_URI} ^/system.*
-	RewriteRule ^(.*)$ index.php?/$1 [L]
-	RewriteCond %{REQUEST_FILENAME} !-f
-	RewriteCond %{REQUEST_FILENAME} !-d
-	RewriteRule ^(.+)$ index.php?/$1 [L]
+RewriteCond %{REQUEST_URI} ^/system.*
+RewriteRule ^(.*)$ index.php?/$1 [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ index.php?/$1 [L]
 ```
 <br>
 <br>
